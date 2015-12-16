@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uuid: 
+  name: MyString
+  email: MyString
+  domain_name: MyString
+  contact_person_name: MyString
+  contact_person_email: MyString
+  contact_person_phone: MyString
+  logo: MyString
+  company_name: MyString
+  is_default: false
+  is_deleted: false
+  created_by: MyString
+  updated_by: MyString
+  account_id: 
+
+two:
+  uuid: 
+  name: MyString
+  email: MyString
+  domain_name: MyString
+  contact_person_name: MyString
+  contact_person_email: MyString
+  contact_person_phone: MyString
+  logo: MyString
+  company_name: MyString
+  is_default: false
+  is_deleted: false
+  created_by: MyString
+  updated_by: MyString
+  account_id: 

@@ -1,0 +1,75 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  phone_number: MyString
+  first_name: MyString
+  last_name: MyString
+  occupation: MyString
+  website: MyString
+  facebook: MyString
+  twitter: MyString
+  google_plus: MyString
+  language: MyString
+  theme: MyString
+  locale: MyString
+  timezone: MyString
+  encrypted_password: MyString
+  reset_password_token: MyString
+  reset_password_sent_at: 2015-12-14 09:37:32
+  remember_created_at: 2015-12-14 09:37:32
+  sign_in_time: 1
+  current_sign_in_at: 2015-12-14 09:37:32
+  last_sign_in_at: 2015-12-14 09:37:32
+  current_sign_in_ip: MyString
+  last_sign_in_ip: MyString
+  confirmation_token: MyString
+  confirm_at: 2015-12-14 09:37:32
+  confirm_sent_at: 2015-12-14 09:37:32
+  unconfirmed_email: MyString
+  failed_attempts: 1
+  unlock_token: MyString
+  locked_at: 2015-12-14 09:37:32
+  password_updated_at: 2015-12-14 09:37:32
+  created_by: MyString
+  updated_by: MyString
+  is_enabled: false
+  is_deleted: false
+  account_id: 
+
+two:
+  email: MyString
+  phone_number: MyString
+  first_name: MyString
+  last_name: MyString
+  occupation: MyString
+  website: MyString
+  facebook: MyString
+  twitter: MyString
+  google_plus: MyString
+  language: MyString
+  theme: MyString
+  locale: MyString
+  timezone: MyString
+  encrypted_password: MyString
+  reset_password_token: MyString
+  reset_password_sent_at: 2015-12-14 09:37:32
+  remember_created_at: 2015-12-14 09:37:32
+  sign_in_time: 1
+  current_sign_in_at: 2015-12-14 09:37:32
+  last_sign_in_at: 2015-12-14 09:37:32
+  current_sign_in_ip: MyString
+  last_sign_in_ip: MyString
+  confirmation_token: MyString
+  confirm_at: 2015-12-14 09:37:32
+  confirm_sent_at: 2015-12-14 09:37:32
+  unconfirmed_email: MyString
+  failed_attempts: 1
+  unlock_token: MyString
+  locked_at: 2015-12-14 09:37:32
+  password_updated_at: 2015-12-14 09:37:32
+  created_by: MyString
+  updated_by: MyString
+  is_enabled: false
+  is_deleted: false
+  account_id: 

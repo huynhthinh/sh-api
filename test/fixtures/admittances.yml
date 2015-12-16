@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  is_default: false
+  user_id: 
+  role_id: 
+  tenant_id: 
+
+two:
+  is_default: false
+  user_id: 
+  role_id: 
+  tenant_id: 
