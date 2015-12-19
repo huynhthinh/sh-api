@@ -23,10 +23,17 @@ gem 'unicorn'
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
 
-gem 'devise'
 gem 'omniauth'
-gem 'devise_token_auth'
+# gem 'devise'
+# gem 'devise_token_auth'
+
+gem 'devise', path: '../devise'
+gem 'devise_token_auth', path: '../devise_token_auth'
 gem 'rabl'
+
+# add seedbank
+gem 'seedbank'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

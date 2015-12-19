@@ -1,3 +1,3 @@
-# after 'shared:user' do
+after 'shared:user' do
 
-# end
+end

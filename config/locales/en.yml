@@ -21,3 +21,7 @@
 
 en:
   hello: "Hello world"
+  root: root
+  distributor: distributor
+  var: var
+  customer: customer

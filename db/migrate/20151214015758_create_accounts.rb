@@ -3,7 +3,7 @@ class CreateAccounts < ActiveRecord::Migration
     create_table :accounts do |t|
       t.uuid :uuid
       t.string :name
-      t.integer :account_type
+      t.integer :account_type, index: true
       t.string :email
       t.string :domain_name
       t.string :contact_person_name
