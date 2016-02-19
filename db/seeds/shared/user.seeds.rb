@@ -186,7 +186,8 @@ def self.create_user(num, account, email="user#{num}@smartsg.com")
                      website: "http://www.smartsg#{num}.com",
                      locale: 'vi',
                      created_by: 'system',
-                     updated_by: 'system'
+                     updated_by: 'system',
+                     authentication_token: Devise.friendly_token
   )
   account.users << user
   p "user: #{user.id.to_s} : #{user.uid.to_s} : #{user.name}"
@@ -236,7 +237,7 @@ primary_users = Usergroup.create(name: "Primary users",
                                  account: sh_root
 )
 
-primary_users.users << [User.find(1),User.find(3)]
+primary_users.users << [User.find(1),User.find(2)]
 
 puts '***************** Starting distributor users seeding'
 # Seeding users for core_distributor1 account

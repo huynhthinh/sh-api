@@ -54,6 +54,7 @@ class CreateUsers < ActiveRecord::Migration
 
       ## Tokens
       t.json :tokens
+      t.string :authentication_token
 
 
       t.datetime :password_updated_at
@@ -68,8 +69,9 @@ class CreateUsers < ActiveRecord::Migration
 
     add_index :users, :email
     add_index :users, :phone_number
-    add_index :users, [:uid, :provider],     :unique => true
-    add_index :users, :reset_password_token, :unique => true
+    # add_index :users, [:uid, :provider],     :unique => true
+    # add_index :users, :reset_password_token, :unique => true
+    # add_index :users, :authentication_token
     # add_index :users, :confirmation_token,   :unique => true
     # add_index :users, :unlock_token,         :unique => true
 

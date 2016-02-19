@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../devise/.idea/devise.iml" filepath="$PROJECT_DIR$/../devise/.idea/devise.iml" />
       <module fileurl="file://$PROJECT_DIR$/../devise_token_auth/.idea/devise_token_auth.iml" filepath="$PROJECT_DIR$/../devise_token_auth/.idea/devise_token_auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sh-api.iml" filepath="$PROJECT_DIR$/.idea/sh-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../simple_token_authentication/.idea/simple_token_authentication.iml" filepath="$PROJECT_DIR$/../simple_token_authentication/.idea/simple_token_authentication.iml" />
     </modules>
   </component>
 </project>

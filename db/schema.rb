@@ -140,6 +140,7 @@ ActiveRecord::Schema.define(version: 20151214033145) do
     t.string   "unlock_token"
     t.datetime "locked_at"
     t.json     "tokens"
+    t.string   "authentication_token"
     t.datetime "password_updated_at"
     t.string   "created_by"
     t.string   "updated_by"
@@ -152,8 +153,6 @@ ActiveRecord::Schema.define(version: 20151214033145) do
 
   add_index "users", ["email"], name: "index_users_on_email", using: :btree
   add_index "users", ["phone_number"], name: "index_users_on_phone_number", using: :btree
-  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
-  add_index "users", ["uid", "provider"], name: "index_users_on_uid_and_provider", unique: true, using: :btree
 
   create_table "users_usergroups", force: :cascade do |t|
     t.integer "usergroup_id"

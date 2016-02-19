@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+# gem 'rails', '5.0.0.beta1'
+gem 'rails'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
@@ -28,8 +29,9 @@ gem 'omniauth'
 # gem 'devise_token_auth'
 
 gem 'devise', path: '../devise'
-gem 'devise_token_auth', path: '../devise_token_auth'
+# gem 'devise_token_auth', path: '../devise_token_auth'
 gem 'rabl'
+gem 'simple_token_authentication'
 
 # add seedbank
 gem 'seedbank'

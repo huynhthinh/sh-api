@@ -1,12 +1,14 @@
 Rails.application.routes.draw do
-  mount_devise_token_auth_for 'User', at: 'auth'
-  # devise_for :users
+  # mount_devise_token_auth_for 'User', at: 'auth'
+  devise_for :users, :controllers => { sessions: 'users/sessions',
+                                       registrations: 'users/registrations'
+                                      }
   # devise_scope :users
-  get 'index' => 'main/index'
-  root 'main#index'
+  # get 'index' => 'main/index'
+  # root 'main#index'
   # get 'users/index'
 
-  resources :users#, only: [:index, :destroy]
+  # resources :users#, only: [:index, :destroy]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

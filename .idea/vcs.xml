@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../devise_token_auth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../simple_token_authentication" vcs="Git" />
   </component>
 </project>
